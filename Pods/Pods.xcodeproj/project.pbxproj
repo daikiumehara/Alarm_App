@@ -1,0 +1,1537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0FC3A734850730BADC4F31B111854643 /* Pods-AlarmAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F987F42795CD3FB64E711A62614AC7 /* Pods-AlarmAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113CE9DF654D708E3B154F448B8CB5FF /* ColorMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5391099E59EF6928D66A95F5504D73 /* ColorMapView.swift */; };
+		129AD3704930C28226E00E01EBEE48F4 /* ColorMapCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21075FF71D88BD613354EB98D1DB1502 /* ColorMapCursor.swift */; };
+		17D3B6F39C639E3E40E37312FE88A9F4 /* Pods-AlarmApp-AlarmAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 831C4D6CABD48093DC9C1F12D0B6CAC2 /* Pods-AlarmApp-AlarmAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B9F32950C947DC418AA845E738B4F8 /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8FD33668654A468205340723F742D9 /* ESTabBar.swift */; };
+		21C2DCF83B732C572DE16D8A5FDFB9EF /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30195EA0A931F53CE4012BDA42EEC0FC /* ESTabBarItemContentView.swift */; };
+		23AE8D7B15AE823A76B41ACF746FC91D /* MidPointCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABC304EB4E1BF82F035E85E4BAA578 /* MidPointCircularSlider.swift */; };
+		2B7EF470FC144FF10910E35899853308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		33129701D6A331F40BEC83251A91EFE6 /* CircularSliderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCDF60719347BA5B98E12A25B162EB2 /* CircularSliderHelper.swift */; };
+		46D09CBA4B9EE758F99914FB7F2C0EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		50834A78578E96C1F3B93985ED7F99B1 /* Colorful-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AEF3995091F90F27E40A4F306208DB /* Colorful-dummy.m */; };
+		56CA21065BA1B127624BC97D4116978C /* Pods-AlarmApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CFF7F12E3594F3D18BA86B098FE8AF5 /* Pods-AlarmApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586A887C43066100AAB6F6DD17264903 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BE9A9467E28D7ACD30AC86088DD74748 /* en.lproj */; };
+		5E695DB6D9ECC2A1EE5C701FA774ED45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		69FA23FA121BC3528F4235E2D787939C /* Colorful-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 860A19C0358FA1D4928B53164AAF0501 /* Colorful-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B7C3630047B3EB7229780B464A4EA98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		701C2F5A876C21D45629A096FDC17081 /* HGCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B28DA7D40CD6F612E4F387CDC517533B /* HGCircularSlider-dummy.m */; };
+		70C154A7577FD8FF5F508E8FB8C21EEA /* ESTabBarController-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D91C3079428A1A67609C13DD4796924C /* ESTabBarController-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83D08F0A49F23BCFE3AD5633F8521D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		97A9B7AB268070E8F9752BBDDA4893A2 /* Pods-AlarmApp-AlarmAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B85CAE2EF5C0085EC49B10825CD34C2 /* Pods-AlarmApp-AlarmAppUITests-dummy.m */; };
+		A42720C1FF49AB57844BC78BBB01CEEC /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E5C02597B7FAAC71648D4A71FB6F6F /* ESTabBarItemBadgeView.swift */; };
+		A662FC332AEB300FCD5098A37A0939BE /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3C031E7048A6A85C41FF14161D30E /* ColorPicker.swift */; };
+		AEC3B34A8ACBDD78BB57A64F06AC354F /* BrightnessCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C16427296A3FDF0DFF7F07534574A2 /* BrightnessCursor.swift */; };
+		BE6FB22CDAB0C5C136246DB21854F711 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2EFFD207024ACFEFF2508EF158F1E4 /* ESTabBarItemMoreContentView.swift */; };
+		C9A93944B72DBA4E99E2051FF0292A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CA447F91E86BD14A497C0BE3A679E804 /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DE52BC99B2DAF8BB306A8C0DBBAF7A /* ESTabBarItem.swift */; };
+		CC40590A86C052149C6047FEA911ACA9 /* Pods-AlarmApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D0A5C531F9F467B0F0903B460B2649 /* Pods-AlarmApp-dummy.m */; };
+		D5E466C9BEE9CF508910C3D1782A8382 /* HGCircularSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF21D5B40B098716E720E42264C84135 /* HGCircularSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF03C6CFA598B0401917E8AFB3C564D7 /* ColorfulEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E33D84FA31D6FD0BBDB9BDA8574EB /* ColorfulEntity.swift */; };
+		DF3D7E16E983CC1FC0A2BC8D7E020531 /* BrightnessSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE050494FAA506B7CD45267026B45F26 /* BrightnessSlider.swift */; };
+		E4606FAE0CFBA2C4BA46647307ACD499 /* RangeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F3920B206F6021CA227951916F421A /* RangeCircularSlider.swift */; };
+		E65495C8DD0B1B5A350B322A096AEE91 /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D1F19DB937C1FFE7603E4C53DADEE /* ESTabBarController.swift */; };
+		E66185D11286BADA85134B36C6D75879 /* Pods-AlarmAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FCC57677A63C14A3238A9D8E5006E0 /* Pods-AlarmAppTests-dummy.m */; };
+		E9B843887D700C07147A66A3B0EF5B5D /* ESTabBarController-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BD97D061D63F2DDA10047613537349 /* ESTabBarController-swift-dummy.m */; };
+		F4927D68F6D455229FC1D386DEA83466 /* CircularSlider+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E8706367E3E971ADE03B5682473D30 /* CircularSlider+Draw.swift */; };
+		F671AFDD6D423827EE0D2877124A1185 /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F0154D08FB821557560652FDD9FA4 /* ESTabBarItemContainer.swift */; };
+		FFAA32FE26C07E3C3486F608F471FC8A /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC052CDD361247522BD451FC910B7EBC /* CircularSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C5D0A0F2048A47430BBEFF55B31A177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BB23E38358EC80363667EF7366D412;
+			remoteInfo = Colorful;
+		};
+		1D72C8908064406891F481987C70D715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		1F7A846F5BFFF9117C8596EC6CC85AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9FD2D0AA836C3ACDF7CEF97CA94645;
+			remoteInfo = "Pods-AlarmApp";
+		};
+		A4396A0B1C8904E6AC74A2AF6ABF4D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F83465BA81F6E581B3A431642D2992E;
+			remoteInfo = "ESTabBarController-swift";
+		};
+		A97B757F157C5243A6BB9418F0E0E71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		AE4005A822CBEAA764783405A45A0AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EEAE7DB07C6F17150BFE2EAD014CB2;
+			remoteInfo = HGCircularSlider;
+		};
+		B5DB9C0D926B69EAFF39713FE5AE708F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F83465BA81F6E581B3A431642D2992E;
+			remoteInfo = "ESTabBarController-swift";
+		};
+		C8419690E0390B43D8ADE15A1C331B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BB23E38358EC80363667EF7366D412;
+			remoteInfo = Colorful;
+		};
+		F0FA98C441367BC0C9FD51C507A1E7EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EEAE7DB07C6F17150BFE2EAD014CB2;
+			remoteInfo = HGCircularSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A639636C27D5068452ABF690C5B6FF /* Pods-AlarmApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlarmApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		038EB4673421FBFC4C818EDE861BDD10 /* Pods-AlarmApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlarmApp.modulemap"; sourceTree = "<group>"; };
+		04376E9EA89CD4CD0BBBB8593183D87C /* Pods-AlarmAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		06B8B31FD581F139E517C9298DFABA8C /* Pods-AlarmApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmApp-Info.plist"; sourceTree = "<group>"; };
+		078B758BAB86A5CDAE445643C5AE6156 /* Colorful.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Colorful.framework; path = Colorful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6E33D84FA31D6FD0BBDB9BDA8574EB /* ColorfulEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorfulEntity.swift; path = Colorful/Classes/ColorfulEntity.swift; sourceTree = "<group>"; };
+		0CFF7F12E3594F3D18BA86B098FE8AF5 /* Pods-AlarmApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlarmApp-umbrella.h"; sourceTree = "<group>"; };
+		117EB1C84FAABA81A52560FE468623BB /* Pods-AlarmApp-AlarmAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlarmApp-AlarmAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		12E22C4ABE2EDBDEB9C11575D2D871F9 /* Pods-AlarmApp-AlarmAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmApp-AlarmAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		131AFAF0D035CFCADC0F7045E6658771 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		141BB465E4C28D2E8A86B3A663F60024 /* HGCircularSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGCircularSlider.modulemap; sourceTree = "<group>"; };
+		199785FD0A6C9FA151DC0BC0D91FDDE7 /* Pods-AlarmApp-AlarmAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlarmApp-AlarmAppUITests.modulemap"; sourceTree = "<group>"; };
+		1B4C8F2072AC19B49B108911DE4C83F6 /* HGCircularSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCircularSlider.release.xcconfig; sourceTree = "<group>"; };
+		21075FF71D88BD613354EB98D1DB1502 /* ColorMapCursor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorMapCursor.swift; path = Colorful/Classes/ColorMapCursor.swift; sourceTree = "<group>"; };
+		22F3920B206F6021CA227951916F421A /* RangeCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeCircularSlider.swift; path = HGCircularSlider/Classes/RangeCircularSlider.swift; sourceTree = "<group>"; };
+		24C16427296A3FDF0DFF7F07534574A2 /* BrightnessCursor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrightnessCursor.swift; path = Colorful/Classes/BrightnessCursor.swift; sourceTree = "<group>"; };
+		2EB527D2DB954126E61ACCFA493AA7E2 /* Pods-AlarmApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmApp.release.xcconfig"; sourceTree = "<group>"; };
+		30195EA0A931F53CE4012BDA42EEC0FC /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemContentView.swift; path = Sources/ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		31223DBF336B568E53B5DE8F57A32454 /* Colorful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colorful.debug.xcconfig; sourceTree = "<group>"; };
+		32DE52BC99B2DAF8BB306A8C0DBBAF7A /* ESTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItem.swift; path = Sources/ESTabBarItem.swift; sourceTree = "<group>"; };
+		35741367FD23656B6D321FFEEBCF8C5B /* Pods-AlarmApp-AlarmAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmApp-AlarmAppUITests-Info.plist"; sourceTree = "<group>"; };
+		3C2EFFD207024ACFEFF2508EF158F1E4 /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemMoreContentView.swift; path = Sources/ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		45E5C02597B7FAAC71648D4A71FB6F6F /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemBadgeView.swift; path = Sources/ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		4F6D1F19DB937C1FFE7603E4C53DADEE /* ESTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarController.swift; path = Sources/ESTabBarController.swift; sourceTree = "<group>"; };
+		5467992B5912E9CF6A923CFCF204B2E6 /* Pods-AlarmAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmAppTests-Info.plist"; sourceTree = "<group>"; };
+		64ABC304EB4E1BF82F035E85E4BAA578 /* MidPointCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MidPointCircularSlider.swift; path = HGCircularSlider/Classes/MidPointCircularSlider.swift; sourceTree = "<group>"; };
+		66354B083B8110392EBEA73D11105DFE /* Colorful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colorful.release.xcconfig; sourceTree = "<group>"; };
+		67CB1753C2B9CA713C45AE206B716440 /* ESTabBarController-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ESTabBarController-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		6B00A4DCDDE4EBBC9F1A4FF0A7C7121B /* Pods-AlarmAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B5391099E59EF6928D66A95F5504D73 /* ColorMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorMapView.swift; path = Colorful/Classes/ColorMapView.swift; sourceTree = "<group>"; };
+		705CB88518EB8818791B56ED6F27398D /* ESTabBarController-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ESTabBarController-swift.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75AEF3995091F90F27E40A4F306208DB /* Colorful-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colorful-dummy.m"; sourceTree = "<group>"; };
+		7629A98DF1CCFB2D8D0B9CDBAA384D0A /* Pods-AlarmApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7D3B1E695E9A4C4EDD9B8FC06E91D037 /* Pods_AlarmAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlarmAppTests.framework; path = "Pods-AlarmAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3488FBC0ABB419F879D8977424051A /* ESTabBarController-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ESTabBarController-swift.modulemap"; sourceTree = "<group>"; };
+		831C4D6CABD48093DC9C1F12D0B6CAC2 /* Pods-AlarmApp-AlarmAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlarmApp-AlarmAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		860A19C0358FA1D4928B53164AAF0501 /* Colorful-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colorful-umbrella.h"; sourceTree = "<group>"; };
+		89565F701063A6EE25456AA656C34DF6 /* HGCircularSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGCircularSlider-Info.plist"; sourceTree = "<group>"; };
+		897CB42C27E49B28AF8355CE9991E4A5 /* Colorful.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Colorful.modulemap; sourceTree = "<group>"; };
+		8F587CAB7739C0C90BB4368ED74B8558 /* ESTabBarController-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ESTabBarController-swift-Info.plist"; sourceTree = "<group>"; };
+		940DB7966E7A36F25397DB151BC7EB70 /* Pods_AlarmApp_AlarmAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlarmApp_AlarmAppUITests.framework; path = "Pods-AlarmApp-AlarmAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9990A90CB29631761DF070BC3ABF36DE /* ESTabBarController-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTabBarController-swift-prefix.pch"; sourceTree = "<group>"; };
+		9A622B2A72B4D83AAA318A984D0D0104 /* Colorful-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colorful-prefix.pch"; sourceTree = "<group>"; };
+		9B85CAE2EF5C0085EC49B10825CD34C2 /* Pods-AlarmApp-AlarmAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlarmApp-AlarmAppUITests-dummy.m"; sourceTree = "<group>"; };
+		9C9D5F1C845CE36976CF2439D80F87C4 /* Colorful-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Colorful-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1A27C3FD52C9D4D667F1D1374323FDF /* HGCircularSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCircularSlider.debug.xcconfig; sourceTree = "<group>"; };
+		A293ED35898A2786DF84FA2F8157FEB4 /* Pods-AlarmApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlarmApp-frameworks.sh"; sourceTree = "<group>"; };
+		A2BD97D061D63F2DDA10047613537349 /* ESTabBarController-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESTabBarController-swift-dummy.m"; sourceTree = "<group>"; };
+		A3C5686C013A9AB8DA7872CE5C343F5F /* Pods-AlarmAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A75500A79DD9A1112C03EA09B5CEDC15 /* Pods_AlarmApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlarmApp.framework; path = "Pods-AlarmApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FCC57677A63C14A3238A9D8E5006E0 /* Pods-AlarmAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlarmAppTests-dummy.m"; sourceTree = "<group>"; };
+		B2881AECE27F0A06B0E5917C6D6A3C0D /* Pods-AlarmApp-AlarmAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmApp-AlarmAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B28DA7D40CD6F612E4F387CDC517533B /* HGCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGCircularSlider-dummy.m"; sourceTree = "<group>"; };
+		BCC3C031E7048A6A85C41FF14161D30E /* ColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPicker.swift; path = Colorful/Classes/ColorPicker.swift; sourceTree = "<group>"; };
+		BE9A9467E28D7ACD30AC86088DD74748 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Sources/en.lproj; sourceTree = "<group>"; };
+		C25F0154D08FB821557560652FDD9FA4 /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemContainer.swift; path = Sources/ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		C4903DC31B60F6631FA9488574F43DF8 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		C8E8706367E3E971ADE03B5682473D30 /* CircularSlider+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CircularSlider+Draw.swift"; path = "HGCircularSlider/Classes/CircularSlider+Draw.swift"; sourceTree = "<group>"; };
+		C98DB2FC75D9784E3F905217CC5BEC3D /* HGCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-prefix.pch"; sourceTree = "<group>"; };
+		CB0D3452090CAABA35086493BA162B20 /* Pods-AlarmAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlarmAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFCDF60719347BA5B98E12A25B162EB2 /* CircularSliderHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSliderHelper.swift; path = HGCircularSlider/Classes/CircularSliderHelper.swift; sourceTree = "<group>"; };
+		D7D0A5C531F9F467B0F0903B460B2649 /* Pods-AlarmApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlarmApp-dummy.m"; sourceTree = "<group>"; };
+		D91C3079428A1A67609C13DD4796924C /* ESTabBarController-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTabBarController-swift-umbrella.h"; sourceTree = "<group>"; };
+		DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HGCircularSlider.framework; path = HGCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8FD33668654A468205340723F742D9 /* ESTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBar.swift; path = Sources/ESTabBar.swift; sourceTree = "<group>"; };
+		DECB19730BC2F202AD9F7A3C7BB46107 /* Pods-AlarmAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlarmAppTests.modulemap"; sourceTree = "<group>"; };
+		E1F987F42795CD3FB64E711A62614AC7 /* Pods-AlarmAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlarmAppTests-umbrella.h"; sourceTree = "<group>"; };
+		EE050494FAA506B7CD45267026B45F26 /* BrightnessSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrightnessSlider.swift; path = Colorful/Classes/BrightnessSlider.swift; sourceTree = "<group>"; };
+		EF21D5B40B098716E720E42264C84135 /* HGCircularSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-umbrella.h"; sourceTree = "<group>"; };
+		F31F1A527A898E2162D03498A5A325F1 /* Pods-AlarmApp-AlarmAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmApp-AlarmAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6D00CA03F52F8332AAD8FEEC4AFD406 /* ESTabBarController_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESTabBarController_swift.framework; path = "ESTabBarController-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB419ACD246BEF47860EAFAFBAE66EAC /* Pods-AlarmApp-AlarmAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlarmApp-AlarmAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC052CDD361247522BD451FC910B7EBC /* CircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSlider.swift; path = HGCircularSlider/Classes/CircularSlider.swift; sourceTree = "<group>"; };
+		FE8D28CCA098631D414E281FA80BFD4D /* Pods-AlarmApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmApp-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		039366803B4CB5CDF2F5FC36DBA71D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E695DB6D9ECC2A1EE5C701FA774ED45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A5D42B08031270BBFCE9090E9FFF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7C3630047B3EB7229780B464A4EA98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E33AA61865BAA0D01C8929DBE89F87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A93944B72DBA4E99E2051FF0292A52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B243440CB8F66FB82C3DB1847DE97101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7EF470FC144FF10910E35899853308 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE18A384B8FAEC904C9BD99F819FB142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D08F0A49F23BCFE3AD5633F8521D5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373F0B66524A09446ED8D380BDD8EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D09CBA4B9EE758F99914FB7F2C0EF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048EE0665C7435F1A8A6BB941613C5BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				141BB465E4C28D2E8A86B3A663F60024 /* HGCircularSlider.modulemap */,
+				B28DA7D40CD6F612E4F387CDC517533B /* HGCircularSlider-dummy.m */,
+				89565F701063A6EE25456AA656C34DF6 /* HGCircularSlider-Info.plist */,
+				C98DB2FC75D9784E3F905217CC5BEC3D /* HGCircularSlider-prefix.pch */,
+				EF21D5B40B098716E720E42264C84135 /* HGCircularSlider-umbrella.h */,
+				A1A27C3FD52C9D4D667F1D1374323FDF /* HGCircularSlider.debug.xcconfig */,
+				1B4C8F2072AC19B49B108911DE4C83F6 /* HGCircularSlider.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HGCircularSlider";
+			sourceTree = "<group>";
+		};
+		10D3928400FDFA45B9466DC0B9E5D537 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F3488FBC0ABB419F879D8977424051A /* ESTabBarController-swift.modulemap */,
+				A2BD97D061D63F2DDA10047613537349 /* ESTabBarController-swift-dummy.m */,
+				8F587CAB7739C0C90BB4368ED74B8558 /* ESTabBarController-swift-Info.plist */,
+				9990A90CB29631761DF070BC3ABF36DE /* ESTabBarController-swift-prefix.pch */,
+				D91C3079428A1A67609C13DD4796924C /* ESTabBarController-swift-umbrella.h */,
+				67CB1753C2B9CA713C45AE206B716440 /* ESTabBarController-swift.debug.xcconfig */,
+				705CB88518EB8818791B56ED6F27398D /* ESTabBarController-swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ESTabBarController-swift";
+			sourceTree = "<group>";
+		};
+		275CA5E2F5FCAAC2B61DD1ADF88486F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078B758BAB86A5CDAE445643C5AE6156 /* Colorful.framework */,
+				F6D00CA03F52F8332AAD8FEEC4AFD406 /* ESTabBarController_swift.framework */,
+				DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider.framework */,
+				A75500A79DD9A1112C03EA09B5CEDC15 /* Pods_AlarmApp.framework */,
+				940DB7966E7A36F25397DB151BC7EB70 /* Pods_AlarmApp_AlarmAppUITests.framework */,
+				7D3B1E695E9A4C4EDD9B8FC06E91D037 /* Pods_AlarmAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549A05529C4F67F0675CCBC82DFF2DAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C724309CBE1743F8E431A7F0B3FD674 /* Colorful */,
+				934B5CF0D8F10EEB8BAFF8456CB0363C /* ESTabBarController-swift */,
+				D08A7D895404601E12C4BD7B0D049615 /* HGCircularSlider */,
+				734B16366DC0A325202EAC1AE06FCD1D /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C724309CBE1743F8E431A7F0B3FD674 /* Colorful */ = {
+			isa = PBXGroup;
+			children = (
+				24C16427296A3FDF0DFF7F07534574A2 /* BrightnessCursor.swift */,
+				EE050494FAA506B7CD45267026B45F26 /* BrightnessSlider.swift */,
+				0C6E33D84FA31D6FD0BBDB9BDA8574EB /* ColorfulEntity.swift */,
+				21075FF71D88BD613354EB98D1DB1502 /* ColorMapCursor.swift */,
+				6B5391099E59EF6928D66A95F5504D73 /* ColorMapView.swift */,
+				BCC3C031E7048A6A85C41FF14161D30E /* ColorPicker.swift */,
+				BDB08CD067A1255BA347D0F758AD6D1F /* Support Files */,
+			);
+			name = Colorful;
+			path = Colorful;
+			sourceTree = "<group>";
+		};
+		6C813A836F647C6E58DD472C4284C6B7 /* Pods-AlarmAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DECB19730BC2F202AD9F7A3C7BB46107 /* Pods-AlarmAppTests.modulemap */,
+				CB0D3452090CAABA35086493BA162B20 /* Pods-AlarmAppTests-acknowledgements.markdown */,
+				04376E9EA89CD4CD0BBBB8593183D87C /* Pods-AlarmAppTests-acknowledgements.plist */,
+				A9FCC57677A63C14A3238A9D8E5006E0 /* Pods-AlarmAppTests-dummy.m */,
+				5467992B5912E9CF6A923CFCF204B2E6 /* Pods-AlarmAppTests-Info.plist */,
+				E1F987F42795CD3FB64E711A62614AC7 /* Pods-AlarmAppTests-umbrella.h */,
+				6B00A4DCDDE4EBBC9F1A4FF0A7C7121B /* Pods-AlarmAppTests.debug.xcconfig */,
+				A3C5686C013A9AB8DA7872CE5C343F5F /* Pods-AlarmAppTests.release.xcconfig */,
+			);
+			name = "Pods-AlarmAppTests";
+			path = "Target Support Files/Pods-AlarmAppTests";
+			sourceTree = "<group>";
+		};
+		734B16366DC0A325202EAC1AE06FCD1D /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C739701A41604824D37225CF08C6A /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		90055453BE315965A5193A1147FB8E1F /* Pods-AlarmApp */ = {
+			isa = PBXGroup;
+			children = (
+				038EB4673421FBFC4C818EDE861BDD10 /* Pods-AlarmApp.modulemap */,
+				01A639636C27D5068452ABF690C5B6FF /* Pods-AlarmApp-acknowledgements.markdown */,
+				FE8D28CCA098631D414E281FA80BFD4D /* Pods-AlarmApp-acknowledgements.plist */,
+				D7D0A5C531F9F467B0F0903B460B2649 /* Pods-AlarmApp-dummy.m */,
+				A293ED35898A2786DF84FA2F8157FEB4 /* Pods-AlarmApp-frameworks.sh */,
+				06B8B31FD581F139E517C9298DFABA8C /* Pods-AlarmApp-Info.plist */,
+				0CFF7F12E3594F3D18BA86B098FE8AF5 /* Pods-AlarmApp-umbrella.h */,
+				7629A98DF1CCFB2D8D0B9CDBAA384D0A /* Pods-AlarmApp.debug.xcconfig */,
+				2EB527D2DB954126E61ACCFA493AA7E2 /* Pods-AlarmApp.release.xcconfig */,
+			);
+			name = "Pods-AlarmApp";
+			path = "Target Support Files/Pods-AlarmApp";
+			sourceTree = "<group>";
+		};
+		934B5CF0D8F10EEB8BAFF8456CB0363C /* ESTabBarController-swift */ = {
+			isa = PBXGroup;
+			children = (
+				DD8FD33668654A468205340723F742D9 /* ESTabBar.swift */,
+				4F6D1F19DB937C1FFE7603E4C53DADEE /* ESTabBarController.swift */,
+				32DE52BC99B2DAF8BB306A8C0DBBAF7A /* ESTabBarItem.swift */,
+				45E5C02597B7FAAC71648D4A71FB6F6F /* ESTabBarItemBadgeView.swift */,
+				C25F0154D08FB821557560652FDD9FA4 /* ESTabBarItemContainer.swift */,
+				30195EA0A931F53CE4012BDA42EEC0FC /* ESTabBarItemContentView.swift */,
+				3C2EFFD207024ACFEFF2508EF158F1E4 /* ESTabBarItemMoreContentView.swift */,
+				F75C8DFFC8AA36D1732FF0145DAD0E25 /* Resources */,
+				10D3928400FDFA45B9466DC0B9E5D537 /* Support Files */,
+			);
+			name = "ESTabBarController-swift";
+			path = "ESTabBarController-swift";
+			sourceTree = "<group>";
+		};
+		986C0EF0FFCBC26679525F13B0D04B6F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90055453BE315965A5193A1147FB8E1F /* Pods-AlarmApp */,
+				F4979AFFC2BB4D473F4382B22DAD6779 /* Pods-AlarmApp-AlarmAppUITests */,
+				6C813A836F647C6E58DD472C4284C6B7 /* Pods-AlarmAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BDB08CD067A1255BA347D0F758AD6D1F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				897CB42C27E49B28AF8355CE9991E4A5 /* Colorful.modulemap */,
+				75AEF3995091F90F27E40A4F306208DB /* Colorful-dummy.m */,
+				9C9D5F1C845CE36976CF2439D80F87C4 /* Colorful-Info.plist */,
+				9A622B2A72B4D83AAA318A984D0D0104 /* Colorful-prefix.pch */,
+				860A19C0358FA1D4928B53164AAF0501 /* Colorful-umbrella.h */,
+				31223DBF336B568E53B5DE8F57A32454 /* Colorful.debug.xcconfig */,
+				66354B083B8110392EBEA73D11105DFE /* Colorful.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Colorful";
+			sourceTree = "<group>";
+		};
+		CE2C739701A41604824D37225CF08C6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				131AFAF0D035CFCADC0F7045E6658771 /* SwiftLint.debug.xcconfig */,
+				C4903DC31B60F6631FA9488574F43DF8 /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				549A05529C4F67F0675CCBC82DFF2DAB /* Pods */,
+				275CA5E2F5FCAAC2B61DD1ADF88486F6 /* Products */,
+				986C0EF0FFCBC26679525F13B0D04B6F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D08A7D895404601E12C4BD7B0D049615 /* HGCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FC052CDD361247522BD451FC910B7EBC /* CircularSlider.swift */,
+				C8E8706367E3E971ADE03B5682473D30 /* CircularSlider+Draw.swift */,
+				CFCDF60719347BA5B98E12A25B162EB2 /* CircularSliderHelper.swift */,
+				64ABC304EB4E1BF82F035E85E4BAA578 /* MidPointCircularSlider.swift */,
+				22F3920B206F6021CA227951916F421A /* RangeCircularSlider.swift */,
+				048EE0665C7435F1A8A6BB941613C5BA /* Support Files */,
+			);
+			name = HGCircularSlider;
+			path = HGCircularSlider;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4979AFFC2BB4D473F4382B22DAD6779 /* Pods-AlarmApp-AlarmAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				199785FD0A6C9FA151DC0BC0D91FDDE7 /* Pods-AlarmApp-AlarmAppUITests.modulemap */,
+				FB419ACD246BEF47860EAFAFBAE66EAC /* Pods-AlarmApp-AlarmAppUITests-acknowledgements.markdown */,
+				F31F1A527A898E2162D03498A5A325F1 /* Pods-AlarmApp-AlarmAppUITests-acknowledgements.plist */,
+				9B85CAE2EF5C0085EC49B10825CD34C2 /* Pods-AlarmApp-AlarmAppUITests-dummy.m */,
+				117EB1C84FAABA81A52560FE468623BB /* Pods-AlarmApp-AlarmAppUITests-frameworks.sh */,
+				35741367FD23656B6D321FFEEBCF8C5B /* Pods-AlarmApp-AlarmAppUITests-Info.plist */,
+				831C4D6CABD48093DC9C1F12D0B6CAC2 /* Pods-AlarmApp-AlarmAppUITests-umbrella.h */,
+				B2881AECE27F0A06B0E5917C6D6A3C0D /* Pods-AlarmApp-AlarmAppUITests.debug.xcconfig */,
+				12E22C4ABE2EDBDEB9C11575D2D871F9 /* Pods-AlarmApp-AlarmAppUITests.release.xcconfig */,
+			);
+			name = "Pods-AlarmApp-AlarmAppUITests";
+			path = "Target Support Files/Pods-AlarmApp-AlarmAppUITests";
+			sourceTree = "<group>";
+		};
+		F75C8DFFC8AA36D1732FF0145DAD0E25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A9467E28D7ACD30AC86088DD74748 /* en.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03DE779E9767D5065BCAFE136C5F889A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA21065BA1B127624BC97D4116978C /* Pods-AlarmApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567DD544B190825A19A6BEDA1EB5F39E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FA23FA121BC3528F4235E2D787939C /* Colorful-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8DDD9FCA54292F89EFEB86CE1FE210 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC3A734850730BADC4F31B111854643 /* Pods-AlarmAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767C99A70BD3DBCFB9160917392C8EB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E466C9BEE9CF508910C3D1782A8382 /* HGCircularSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C914A33DBB26792E05219DE6520FBF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D3B6F39C639E3E40E37312FE88A9F4 /* Pods-AlarmApp-AlarmAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26EAA08A2A9B8E7301AE5DC98E212F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C154A7577FD8FF5F508E8FB8C21EEA /* ESTabBarController-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F83465BA81F6E581B3A431642D2992E /* ESTabBarController-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE1332FA34F1619DD1952C7D21ABF8F /* Build configuration list for PBXNativeTarget "ESTabBarController-swift" */;
+			buildPhases = (
+				A26EAA08A2A9B8E7301AE5DC98E212F7 /* Headers */,
+				824C5A00553A24D886E13180A4BA57CF /* Sources */,
+				F373F0B66524A09446ED8D380BDD8EB9 /* Frameworks */,
+				65B402077974CAC70ED91E3CA6C78062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESTabBarController-swift";
+			productName = "ESTabBarController-swift";
+			productReference = F6D00CA03F52F8332AAD8FEEC4AFD406 /* ESTabBarController_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66860647B78977C9A707EE00AB790AB6 /* Pods-AlarmAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6C152E92ACF23207CDCC028E073699 /* Build configuration list for PBXNativeTarget "Pods-AlarmAppTests" */;
+			buildPhases = (
+				6F8DDD9FCA54292F89EFEB86CE1FE210 /* Headers */,
+				A068F84DD8CDCD3FE8CF10AAB869DB30 /* Sources */,
+				039366803B4CB5CDF2F5FC36DBA71D04 /* Frameworks */,
+				25FFADBE8CD0C654C12965D69721AA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847546F417898C5F089491900BC51494 /* PBXTargetDependency */,
+			);
+			name = "Pods-AlarmAppTests";
+			productName = "Pods-AlarmAppTests";
+			productReference = 7D3B1E695E9A4C4EDD9B8FC06E91D037 /* Pods_AlarmAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830DCB0A097257D0F9E1D557676CFDE1 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */;
+			buildPhases = (
+				767C99A70BD3DBCFB9160917392C8EB6 /* Headers */,
+				6978B58842DD4999449ECEB578D444D9 /* Sources */,
+				8E33AA61865BAA0D01C8929DBE89F87E /* Frameworks */,
+				5F9A73F81E071C4227DCD8F475E6B09B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGCircularSlider;
+			productName = HGCircularSlider;
+			productReference = DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9665E41BF760D3AC2C21B5ED51F403AE /* Pods-AlarmApp-AlarmAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2E2A4C6F7A58FD762FEA35DB1B92A3 /* Build configuration list for PBXNativeTarget "Pods-AlarmApp-AlarmAppUITests" */;
+			buildPhases = (
+				9C914A33DBB26792E05219DE6520FBF1 /* Headers */,
+				10E14AAC61E8862FE280FDFB8BAE001E /* Sources */,
+				B243440CB8F66FB82C3DB1847DE97101 /* Frameworks */,
+				21F5F520F91BF16BF1EACF1B3B6663D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A2CB708A171802F9D04803D3496CC42 /* PBXTargetDependency */,
+				22F32492D8297EB34EACC7FC849BA9B6 /* PBXTargetDependency */,
+				4052F24ABAB5D0B83375514566EF57F4 /* PBXTargetDependency */,
+				CBEA943F752F78C64C5C5C929874190A /* PBXTargetDependency */,
+			);
+			name = "Pods-AlarmApp-AlarmAppUITests";
+			productName = "Pods-AlarmApp-AlarmAppUITests";
+			productReference = 940DB7966E7A36F25397DB151BC7EB70 /* Pods_AlarmApp_AlarmAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB9FD2D0AA836C3ACDF7CEF97CA94645 /* Pods-AlarmApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDAA3BA6CE5E2E6D7E22A7BC5475ECF /* Build configuration list for PBXNativeTarget "Pods-AlarmApp" */;
+			buildPhases = (
+				03DE779E9767D5065BCAFE136C5F889A /* Headers */,
+				B7B77E52862E4474BBF7C17254B3947B /* Sources */,
+				26A5D42B08031270BBFCE9090E9FFF6E /* Frameworks */,
+				80F62A263B0C8F07506F1F8595D5039D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3203E07991C87ED434F03F26889D509E /* PBXTargetDependency */,
+				0C2375C43F22437969F01922A3A20968 /* PBXTargetDependency */,
+				B2694CDD03CA6BFC5578BE2C41A3F637 /* PBXTargetDependency */,
+				602FC30C73916049C00A4E5D68C27EC9 /* PBXTargetDependency */,
+			);
+			name = "Pods-AlarmApp";
+			productName = "Pods-AlarmApp";
+			productReference = A75500A79DD9A1112C03EA09B5CEDC15 /* Pods_AlarmApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0BB23E38358EC80363667EF7366D412 /* Colorful */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F34DDE224D2942E796BE6C710B0C9E /* Build configuration list for PBXNativeTarget "Colorful" */;
+			buildPhases = (
+				567DD544B190825A19A6BEDA1EB5F39E /* Headers */,
+				335E5E3A20FC74C7739BB7C2AB43E5D2 /* Sources */,
+				BE18A384B8FAEC904C9BD99F819FB142 /* Frameworks */,
+				400E8ABE5FFBDDC43B5089802FEF5574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colorful;
+			productName = Colorful;
+			productReference = 078B758BAB86A5CDAE445643C5AE6156 /* Colorful.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 275CA5E2F5FCAAC2B61DD1ADF88486F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BB23E38358EC80363667EF7366D412 /* Colorful */,
+				3F83465BA81F6E581B3A431642D2992E /* ESTabBarController-swift */,
+				82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */,
+				BB9FD2D0AA836C3ACDF7CEF97CA94645 /* Pods-AlarmApp */,
+				9665E41BF760D3AC2C21B5ED51F403AE /* Pods-AlarmApp-AlarmAppUITests */,
+				66860647B78977C9A707EE00AB790AB6 /* Pods-AlarmAppTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F5F520F91BF16BF1EACF1B3B6663D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FFADBE8CD0C654C12965D69721AA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400E8ABE5FFBDDC43B5089802FEF5574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9A73F81E071C4227DCD8F475E6B09B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B402077974CAC70ED91E3CA6C78062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586A887C43066100AAB6F6DD17264903 /* en.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F62A263B0C8F07506F1F8595D5039D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E14AAC61E8862FE280FDFB8BAE001E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A9B7AB268070E8F9752BBDDA4893A2 /* Pods-AlarmApp-AlarmAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335E5E3A20FC74C7739BB7C2AB43E5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC3B34A8ACBDD78BB57A64F06AC354F /* BrightnessCursor.swift in Sources */,
+				DF3D7E16E983CC1FC0A2BC8D7E020531 /* BrightnessSlider.swift in Sources */,
+				50834A78578E96C1F3B93985ED7F99B1 /* Colorful-dummy.m in Sources */,
+				DF03C6CFA598B0401917E8AFB3C564D7 /* ColorfulEntity.swift in Sources */,
+				129AD3704930C28226E00E01EBEE48F4 /* ColorMapCursor.swift in Sources */,
+				113CE9DF654D708E3B154F448B8CB5FF /* ColorMapView.swift in Sources */,
+				A662FC332AEB300FCD5098A37A0939BE /* ColorPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6978B58842DD4999449ECEB578D444D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4927D68F6D455229FC1D386DEA83466 /* CircularSlider+Draw.swift in Sources */,
+				FFAA32FE26C07E3C3486F608F471FC8A /* CircularSlider.swift in Sources */,
+				33129701D6A331F40BEC83251A91EFE6 /* CircularSliderHelper.swift in Sources */,
+				701C2F5A876C21D45629A096FDC17081 /* HGCircularSlider-dummy.m in Sources */,
+				23AE8D7B15AE823A76B41ACF746FC91D /* MidPointCircularSlider.swift in Sources */,
+				E4606FAE0CFBA2C4BA46647307ACD499 /* RangeCircularSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824C5A00553A24D886E13180A4BA57CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B9F32950C947DC418AA845E738B4F8 /* ESTabBar.swift in Sources */,
+				E9B843887D700C07147A66A3B0EF5B5D /* ESTabBarController-swift-dummy.m in Sources */,
+				E65495C8DD0B1B5A350B322A096AEE91 /* ESTabBarController.swift in Sources */,
+				CA447F91E86BD14A497C0BE3A679E804 /* ESTabBarItem.swift in Sources */,
+				A42720C1FF49AB57844BC78BBB01CEEC /* ESTabBarItemBadgeView.swift in Sources */,
+				F671AFDD6D423827EE0D2877124A1185 /* ESTabBarItemContainer.swift in Sources */,
+				21C2DCF83B732C572DE16D8A5FDFB9EF /* ESTabBarItemContentView.swift in Sources */,
+				BE6FB22CDAB0C5C136246DB21854F711 /* ESTabBarItemMoreContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A068F84DD8CDCD3FE8CF10AAB869DB30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66185D11286BADA85134B36C6D75879 /* Pods-AlarmAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B77E52862E4474BBF7C17254B3947B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC40590A86C052149C6047FEA911ACA9 /* Pods-AlarmApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A2CB708A171802F9D04803D3496CC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colorful;
+			target = D0BB23E38358EC80363667EF7366D412 /* Colorful */;
+			targetProxy = C8419690E0390B43D8ADE15A1C331B77 /* PBXContainerItemProxy */;
+		};
+		0C2375C43F22437969F01922A3A20968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESTabBarController-swift";
+			target = 3F83465BA81F6E581B3A431642D2992E /* ESTabBarController-swift */;
+			targetProxy = B5DB9C0D926B69EAFF39713FE5AE708F /* PBXContainerItemProxy */;
+		};
+		22F32492D8297EB34EACC7FC849BA9B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESTabBarController-swift";
+			target = 3F83465BA81F6E581B3A431642D2992E /* ESTabBarController-swift */;
+			targetProxy = A4396A0B1C8904E6AC74A2AF6ABF4D83 /* PBXContainerItemProxy */;
+		};
+		3203E07991C87ED434F03F26889D509E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colorful;
+			target = D0BB23E38358EC80363667EF7366D412 /* Colorful */;
+			targetProxy = 0C5D0A0F2048A47430BBEFF55B31A177 /* PBXContainerItemProxy */;
+		};
+		4052F24ABAB5D0B83375514566EF57F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HGCircularSlider;
+			target = 82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */;
+			targetProxy = AE4005A822CBEAA764783405A45A0AC4 /* PBXContainerItemProxy */;
+		};
+		602FC30C73916049C00A4E5D68C27EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 1D72C8908064406891F481987C70D715 /* PBXContainerItemProxy */;
+		};
+		847546F417898C5F089491900BC51494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AlarmApp";
+			target = BB9FD2D0AA836C3ACDF7CEF97CA94645 /* Pods-AlarmApp */;
+			targetProxy = 1F7A846F5BFFF9117C8596EC6CC85AD3 /* PBXContainerItemProxy */;
+		};
+		B2694CDD03CA6BFC5578BE2C41A3F637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HGCircularSlider;
+			target = 82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */;
+			targetProxy = F0FA98C441367BC0C9FD51C507A1E7EC /* PBXContainerItemProxy */;
+		};
+		CBEA943F752F78C64C5C5C929874190A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = A97B757F157C5243A6BB9418F0E0E71F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13E30F3434182FA0AC6D4C8D094BEC7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E22C4ABE2EDBDEB9C11575D2D871F9 /* Pods-AlarmApp-AlarmAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlarmApp-AlarmAppUITests/Pods-AlarmApp-AlarmAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlarmApp-AlarmAppUITests/Pods-AlarmApp-AlarmAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3694A79E2A60A8049950CD94B7C504A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66354B083B8110392EBEA73D11105DFE /* Colorful.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colorful/Colorful-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colorful/Colorful-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Colorful/Colorful.modulemap";
+				PRODUCT_MODULE_NAME = Colorful;
+				PRODUCT_NAME = Colorful;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F6B6558A2FC5EEDD21F2684177E1E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31223DBF336B568E53B5DE8F57A32454 /* Colorful.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colorful/Colorful-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colorful/Colorful-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Colorful/Colorful.modulemap";
+				PRODUCT_MODULE_NAME = Colorful;
+				PRODUCT_NAME = Colorful;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BCBF6AFCB865B40EBE4EF35FFA10A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB527D2DB954126E61ACCFA493AA7E2 /* Pods-AlarmApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlarmApp/Pods-AlarmApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlarmApp/Pods-AlarmApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E03FC2B71B52D9F7DE5C558632DACED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4C8F2072AC19B49B108911DE4C83F6 /* HGCircularSlider.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGCircularSlider/HGCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = HGCircularSlider;
+				PRODUCT_NAME = HGCircularSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		500D3D8EEC540DB4F29AE3B69E02C534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A27C3FD52C9D4D667F1D1374323FDF /* HGCircularSlider.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGCircularSlider/HGCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = HGCircularSlider;
+				PRODUCT_NAME = HGCircularSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60927317388FC156C9B4485E858923FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7629A98DF1CCFB2D8D0B9CDBAA384D0A /* Pods-AlarmApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlarmApp/Pods-AlarmApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlarmApp/Pods-AlarmApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7852D3113A8EC196DE9317AD04D59EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2881AECE27F0A06B0E5917C6D6A3C0D /* Pods-AlarmApp-AlarmAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlarmApp-AlarmAppUITests/Pods-AlarmApp-AlarmAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlarmApp-AlarmAppUITests/Pods-AlarmApp-AlarmAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A1F142906791583A3FF7B27CF59D15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C5686C013A9AB8DA7872CE5C343F5F /* Pods-AlarmAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlarmAppTests/Pods-AlarmAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlarmAppTests/Pods-AlarmAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A200CB1422AA736C8BC94DF86FABED52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B00A4DCDDE4EBBC9F1A4FF0A7C7121B /* Pods-AlarmAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlarmAppTests/Pods-AlarmAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlarmAppTests/Pods-AlarmAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4903DC31B60F6631FA9488574F43DF8 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C0D39689387C1F6555C1AF9D11C0FD1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CB1753C2B9CA713C45AE206B716440 /* ESTabBarController-swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift.modulemap";
+				PRODUCT_MODULE_NAME = ESTabBarController_swift;
+				PRODUCT_NAME = ESTabBarController_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E30749824C8DA4D6FDA08F61191EA9EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705CB88518EB8818791B56ED6F27398D /* ESTabBarController-swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESTabBarController-swift/ESTabBarController-swift.modulemap";
+				PRODUCT_MODULE_NAME = ESTabBarController_swift;
+				PRODUCT_NAME = ESTabBarController_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131AFAF0D035CFCADC0F7045E6658771 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2E2A4C6F7A58FD762FEA35DB1B92A3 /* Build configuration list for PBXNativeTarget "Pods-AlarmApp-AlarmAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7852D3113A8EC196DE9317AD04D59EC5 /* Debug */,
+				13E30F3434182FA0AC6D4C8D094BEC7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDAA3BA6CE5E2E6D7E22A7BC5475ECF /* Build configuration list for PBXNativeTarget "Pods-AlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60927317388FC156C9B4485E858923FB /* Debug */,
+				4BCBF6AFCB865B40EBE4EF35FFA10A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6C152E92ACF23207CDCC028E073699 /* Build configuration list for PBXNativeTarget "Pods-AlarmAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A200CB1422AA736C8BC94DF86FABED52 /* Debug */,
+				9A1F142906791583A3FF7B27CF59D15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830DCB0A097257D0F9E1D557676CFDE1 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500D3D8EEC540DB4F29AE3B69E02C534 /* Debug */,
+				4E03FC2B71B52D9F7DE5C558632DACED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE1332FA34F1619DD1952C7D21ABF8F /* Build configuration list for PBXNativeTarget "ESTabBarController-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D39689387C1F6555C1AF9D11C0FD1D /* Debug */,
+				E30749824C8DA4D6FDA08F61191EA9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F34DDE224D2942E796BE6C710B0C9E /* Build configuration list for PBXNativeTarget "Colorful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6B6558A2FC5EEDD21F2684177E1E8D /* Debug */,
+				3694A79E2A60A8049950CD94B7C504A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

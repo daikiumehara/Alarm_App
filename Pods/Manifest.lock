@@ -1,0 +1,28 @@
+PODS:
+  - Colorful (3.0.0)
+  - ESTabBarController-swift (2.8.0)
+  - HGCircularSlider (2.2.0)
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - Colorful (~> 3.0)
+  - ESTabBarController-swift
+  - HGCircularSlider
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Colorful
+    - ESTabBarController-swift
+    - HGCircularSlider
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Colorful: 9e093edacaa9fb73512ad9da157f0707b82d2542
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  HGCircularSlider: afb1942743a2df156dcc7a3500216e523e14266b
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: e06fafac490f002a58baaf9e15c11473c7c3f06f
+
+COCOAPODS: 1.10.1
