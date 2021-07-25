@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct AlarmData {
+struct AlarmData: Comparable {
     var title: String
     var time: String
     var alarmName: String
@@ -17,6 +17,10 @@ struct AlarmData {
         didSet {
             settingAlarm()
         }
+    }
+
+    static func < (lhs: AlarmData, rhs: AlarmData) -> Bool {
+
     }
 
     private func settingAlarm() {

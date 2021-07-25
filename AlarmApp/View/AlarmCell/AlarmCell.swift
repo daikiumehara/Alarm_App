@@ -14,6 +14,8 @@ class AlarmCell: UICollectionViewCell {
     @IBOutlet private var bellImage: UIImageView!
     @IBOutlet private var alarmSwitch: UISwitch!
 
+    private var alarmData: AlarmData!
+
     static var identifier: String { String(describing: self) }
     static var nib: UINib { UINib(nibName: String(describing: self), bundle: nil) }
 
