@@ -19,14 +19,28 @@ struct AlarmData: Comparable {
         }
     }
 
-    static func < (lhs: AlarmData, rhs: AlarmData) -> Bool {
+    init(title: String, time: String, alarmName: String,
+         fileName: String, identifier: String, setting: Bool) {
+        self.title = title
+        self.time = time
+        self.alarmName = alarmName
+        self.alarmFileName = fileName
+        self.alarmIdentifier = identifier
+        self.isSetting = setting
+        if setting {
+            settingAlarm()
+        }
+    }
 
+    static func < (lhs: AlarmData, rhs: AlarmData) -> Bool {
+        return  CustomFormatter.stringToTime(lhs.time) > CustomFormatter.stringToTime(rhs.time)
     }
 
     private func settingAlarm() {
         let center = UNUserNotificationCenter.current()
-        //アラームの解除
+        // アラームの解除
         guard isSetting else {
+            print("アラームが解除されました")
             center.removePendingNotificationRequests(withIdentifiers: [alarmIdentifier])
             return
         }
@@ -50,5 +64,6 @@ struct AlarmData: Comparable {
                 print("エラーが発生しました\(error)")
             }
         }
+        print("アラームがセットされました")
     }
 }

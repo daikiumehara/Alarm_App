@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Formatter {
+struct CustomFormatter {
     static func timeToStirng(_ time: Date) -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "HH:MM"
