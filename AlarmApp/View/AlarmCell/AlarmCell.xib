@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="LKo-yq-960" customClass="AlarmCell" customModule="AlarmApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="PJe-Om-496">
+                <rect key="frame" x="0.0" y="0.0" width="270" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="タイトル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zs2-WQ-EBU">
+                        <rect key="frame" x="20" y="10" width="61.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アラーム音" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUJ-YW-emZ">
+                        <rect key="frame" x="183.5" y="69" width="66.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hub-wm-QY1">
+                        <rect key="frame" x="196" y="29.5" width="51" height="31"/>
+                    </switch>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VPZ-D5-OEV">
+                        <rect key="frame" x="168.5" y="70" width="15" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="2cS-jH-Ux0"/>
+                            <constraint firstAttribute="height" constant="15" id="Mpx-Fy-ixE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uoc-Hk-a3X">
+                        <rect key="frame" x="20" y="28" width="111.5" height="54"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Zs2-WQ-EBU" firstAttribute="top" secondItem="PJe-Om-496" secondAttribute="top" constant="10" id="5gt-bO-6iB"/>
+                    <constraint firstAttribute="trailing" secondItem="Hub-wm-QY1" secondAttribute="trailing" constant="25" id="DfB-xX-mgw"/>
+                    <constraint firstItem="Uoc-Hk-a3X" firstAttribute="leading" secondItem="PJe-Om-496" secondAttribute="leading" constant="20" id="Uu7-mH-Jmw"/>
+                    <constraint firstItem="Uoc-Hk-a3X" firstAttribute="top" secondItem="Zs2-WQ-EBU" secondAttribute="bottom" id="eRI-Bo-4JI"/>
+                    <constraint firstItem="Zs2-WQ-EBU" firstAttribute="leading" secondItem="PJe-Om-496" secondAttribute="leading" constant="20" id="gf6-42-xC3"/>
+                    <constraint firstItem="uUJ-YW-emZ" firstAttribute="leading" secondItem="VPZ-D5-OEV" secondAttribute="trailing" id="hh1-3S-9H2"/>
+                    <constraint firstAttribute="trailing" secondItem="uUJ-YW-emZ" secondAttribute="trailing" constant="20" id="r14-f3-9ey"/>
+                    <constraint firstItem="Hub-wm-QY1" firstAttribute="centerY" secondItem="PJe-Om-496" secondAttribute="centerY" id="ufN-ZQ-mo8"/>
+                    <constraint firstAttribute="bottom" secondItem="uUJ-YW-emZ" secondAttribute="bottom" constant="5" id="wJ8-bb-0R6"/>
+                    <constraint firstItem="VPZ-D5-OEV" firstAttribute="centerY" secondItem="uUJ-YW-emZ" secondAttribute="centerY" id="xrv-TF-m1e"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="270" height="90"/>
+            <connections>
+                <outlet property="alameNameLabel" destination="uUJ-YW-emZ" id="jlT-rQ-w9g"/>
+                <outlet property="alarmSwitch" destination="Hub-wm-QY1" id="SXL-Lx-CrG"/>
+                <outlet property="bellImage" destination="VPZ-D5-OEV" id="hyA-kc-PhP"/>
+                <outlet property="timeLabel" destination="Uoc-Hk-a3X" id="5hL-MX-jgs"/>
+                <outlet property="titleLabel" destination="Zs2-WQ-EBU" id="8Ab-bc-818"/>
+            </connections>
+            <point key="canvasLocation" x="72.463768115942031" y="-105.13392857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bell.fill" catalog="system" width="128" height="124"/>
+    </resources>
+</document>
