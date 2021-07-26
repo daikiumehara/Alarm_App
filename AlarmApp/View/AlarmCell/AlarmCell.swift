@@ -15,14 +15,16 @@ class AlarmCell: UICollectionViewCell {
     @IBOutlet private var alarmSwitch: UISwitch!
 
     private var alarmData: AlarmData!
+    private var changeSwitchValue: ((Bool) -> Void)!
 
     static var identifier: String { String(describing: self) }
     static var nib: UINib { UINib(nibName: String(describing: self), bundle: nil) }
 
-    func configure(data: AlarmData, colorModel: ColorModel) {
+    func configure(data: AlarmData, colorModel: ColorModel, changeSwitchValue: @escaping  (Bool) -> Void) {
         self.alarmData = data
         alarmSwitch.isOn = alarmData.isSetting
         appearanceConfigure(model: colorModel)
+        self.changeSwitchValue = changeSwitchValue
     }
 
     private func appearanceConfigure(model: ColorModel) {
@@ -37,7 +39,7 @@ class AlarmCell: UICollectionViewCell {
         self.alarmSwitch.onTintColor = model.mainColor
     }
 
-    @IBAction func didChangeSwitchValue(_ sender: Any) {
-        self.alarmData.isSetting = alarmSwitch.isOn
+    @IBAction private func didChangeSwitchValue(_ sender: Any) {
+        self.changeSwitchValue(self.alarmSwitch.isOn)
     }
 }

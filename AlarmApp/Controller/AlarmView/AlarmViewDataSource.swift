@@ -24,14 +24,16 @@ class AlarmViewDataSource: NSObject, UICollectionViewDataSource {
                 .dequeueReusableCell(withReuseIdentifier: AlarmCell.identifier, for: indexPath) as? AlarmCell else {
             fatalError("セルが見つかりません")
         }
-        //TODO -Dataの取得
-        let data = AlarmData(title: "目覚まし",
+        // TODO -Dataの取得
+        var data = AlarmData(title: "目覚まし",
                              time: "11:00",
-                             alarmName: "ポテトの音",
-                             fileName: "poteto",
+                             soundData: SoundData(soundName: "poteto", fileName: "poteto"),
                              identifier: "2020:11:24:22:21:11",
                              setting: false)
-        cell.configure(data: data, colorModel: colorModel)
+        let changeSwitchValue = { setting in
+            data.isSetting = setting
+        }
+        cell.configure(data: data, colorModel: colorModel, changeSwitchValue: changeSwitchValue)
         return cell
     }
 }

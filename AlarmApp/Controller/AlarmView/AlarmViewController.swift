@@ -27,7 +27,7 @@ class AlarmViewController: UIViewController {
 
     func askPermissionNontification() {
         let center = UNUserNotificationCenter.current()
-        center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+        center.requestAuthorization(options: [.alert, .badge, .sound]) { _, error in
             if let error = error {
                 print(error)
             }

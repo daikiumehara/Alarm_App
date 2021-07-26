@@ -7,5 +7,12 @@
 
 import Foundation
 
-class SoundData {
+struct SoundData: Codable {
+    let fileName: String
+    let soundName: String
+
+    init(soundName: String, fileName: String) {
+        self.fileName = fileName
+        self.soundName = soundName
+    }
 }

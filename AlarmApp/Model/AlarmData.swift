@@ -10,26 +10,28 @@ import UIKit
 struct AlarmData: Comparable {
     var title: String
     var time: String
-    var alarmName: String
-    var alarmFileName: String
-    var alarmIdentifier: String  //作成した年日時秒(アラームの識別に使用)
+    var soundData: SoundData
+    var alarmIdentifier: String  // 作成した年日時秒(アラームの識別に使用)
     var isSetting: Bool {
         didSet {
             settingAlarm()
         }
     }
 
-    init(title: String, time: String, alarmName: String,
-         fileName: String, identifier: String, setting: Bool) {
+    init(title: String, time: String, soundData: SoundData,
+         identifier: String, setting: Bool) {
         self.title = title
         self.time = time
-        self.alarmName = alarmName
-        self.alarmFileName = fileName
+        self.soundData = soundData
         self.alarmIdentifier = identifier
         self.isSetting = setting
         if setting {
             settingAlarm()
         }
+    }
+
+    static func == (lhs: AlarmData, rhs: AlarmData) -> Bool {
+        return lhs.alarmIdentifier == rhs.alarmIdentifier
     }
 
     static func < (lhs: AlarmData, rhs: AlarmData) -> Bool {
@@ -53,7 +55,7 @@ struct AlarmData: Comparable {
         let content = UNMutableNotificationContent()
         content.title = "アラーム"
         content.body = "起床の時間です"
-        let sound = UNNotificationSound(named: UNNotificationSoundName(alarmFileName))
+        let sound = UNNotificationSound(named: UNNotificationSoundName(soundData.fileName))
         content.sound = sound
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 3, repeats: false)
         let request = UNNotificationRequest(identifier: alarmIdentifier,

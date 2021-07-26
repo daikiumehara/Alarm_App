@@ -43,7 +43,6 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAd-e9-1jO">
                                 <rect key="frame" x="334" y="738.5" width="60" height="59"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="07w-kM-mYA"/>
                                     <constraint firstAttribute="height" constant="60" id="gtr-6G-31u"/>
